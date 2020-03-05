@@ -1,0 +1,18 @@
+	<table border="1">
+    <thead></thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email Id</th>
+      <th>Salary</th>
+      </tr>
+    
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.empId}}</td>
+            <td>{{emp.empName}}</td>
+            <td>{{emp.emailId}}</td>
+            <td>{{emp.salary}}</td>
+            </tr>
+    </tbody>
+      </table>
